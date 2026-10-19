@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0abdac625d0d3c46b756f6876dcdf07
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388428
+  packageName: Hierarchy v2
+  packageVersion: 1.0
+  assetPath: Assets/ImprovedHierarchy/Editor/ImprovedHierarchy.Editor.asmdef
+  uploadId: 1009116

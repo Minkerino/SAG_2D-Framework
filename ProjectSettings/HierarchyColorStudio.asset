@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e1aab73da22cc4890818555df7d414, type: 3}
+  m_Name: Hierarchy Color Studio
+  m_EditorClassIdentifier: CryNet.HierarchyColorStudio.Editor::CryNet.HierarchyColorStudio.HierarchyColorStore
+  m_Version: 1
+  m_Appearance:
+    m_Enabled: 1
+    m_Decorations: 3
+    m_MarkerShape: 0
+    m_MarkerPlacement: 0
+    m_MarkerSize: 8
+    m_TintOpacity: 0.22
+    m_TintScope: 0
+    m_LabelBrightness: 1
+    m_LabelFillsBackground: 0
+    m_RowBackgroundDark: {r: 0.2196, g: 0.2196, b: 0.2196, a: 1}
+    m_RowBackgroundLight: {r: 0.7843, g: 0.7843, b: 0.7843, a: 1}
+    m_SelectedRowBehavior: 1
+    m_HoverBehavior: 0
+    m_LabelOffset: 18
+    m_DefaultApplyScope: 0
+    m_DebugLogging: 0
+  m_Presets:
+  - m_Id: 40815548e1b247a68ff11313cb722eef
+    m_Name: Red
+    m_Color: E74C3CFF
+  - m_Id: 7ebf9ce53f734a1ab6ba8f5508228dcc
+    m_Name: Orange
+    m_Color: E67E22FF
+  - m_Id: b06d1fa8680b4fcd96ad1f9f901332b2
+    m_Name: Amber
+    m_Color: F1C40FFF
+  - m_Id: 6ee77ee21c5f44f99470f79956d1d1a9
+    m_Name: Green
+    m_Color: 2ECC71FF
+  - m_Id: 12f283ed6d3745afa8fea7004aa2e62b
+    m_Name: Teal
+    m_Color: 1ABC9CFF
+  - m_Id: 2b03b6b128954ecdb3bcab27c14f50f1
+    m_Name: Blue
+    m_Color: 3498DBFF
+  - m_Id: d64e4290a84f4f3f84afb7b62e075d35
+    m_Name: Indigo
+    m_Color: 5B6CE8FF
+  - m_Id: 226e8550c541497997c7d06d762a7780
+    m_Name: Violet
+    m_Color: 9B59B6FF
+  - m_Id: 1d4b046c00b645e7a00a744286e7aea0
+    m_Name: Pink
+    m_Color: E85A9BFF
+  - m_Id: 4e918eeef82e4738a1d16bf4cff40596
+    m_Name: Slate
+    m_Color: 7F8C8DFF
+  m_Assignments: []

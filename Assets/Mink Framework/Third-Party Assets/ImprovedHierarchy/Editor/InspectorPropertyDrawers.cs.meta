@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0a9e7dd07911b7d43bb92d395b031816
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388428
+  packageName: Hierarchy v2
+  packageVersion: 1.0
+  assetPath: Assets/ImprovedHierarchy/Editor/InspectorPropertyDrawers.cs
+  uploadId: 1009116

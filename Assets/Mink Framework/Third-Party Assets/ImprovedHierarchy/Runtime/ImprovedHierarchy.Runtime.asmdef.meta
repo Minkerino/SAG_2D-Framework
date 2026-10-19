@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 063950b081501ca42a2ac6dd00edbf0e
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388428
+  packageName: Hierarchy v2
+  packageVersion: 1.0
+  assetPath: Assets/ImprovedHierarchy/Runtime/ImprovedHierarchy.Runtime.asmdef
+  uploadId: 1009116

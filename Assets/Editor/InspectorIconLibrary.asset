@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd6335bbf78b2804f8756b8817b8ef4e, type: 3}
+  m_Name: InspectorIconLibrary
+  m_EditorClassIdentifier: ImprovedHierarchy.Runtime::ImprovedHierarchy.IconLibrary
+  favoriteInternalIcons:
+  - Folder Icon
+  - console.erroricon
+  customTextures: []
+  folderColors:
+  - folderGuid: 4368c6e72355b0749a551cf99db22787
+    color: {r: 0.9, g: 0.55, b: 0.2, a: 1}
+    iconName: 
+  favoriteScenes: []
+  gameObjectIcons:
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1879460271-0
+    iconColor: {r: 0.95, g: 0.4, b: 0.75, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1720501752-0
+    iconColor: {r: 0.55, g: 0.4, b: 0.9, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-836763973-0
+    iconColor: {r: 0.3, g: 0.55, b: 0.95, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1553455023-0
+    iconColor: {r: 0.25, g: 0.8, b: 0.65, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1741166204-0
+    iconColor: {r: 0.85, g: 0.3, b: 0.3, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-502310833-0
+    iconColor: {r: 0.85, g: 0.3, b: 0.3, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-975676509-0
+    iconColor: {r: 0.3, g: 0.8, b: 0.4, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-353368996-0
+    iconColor: {r: 0.9, g: 0.55, b: 0.2, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1153198688-0
+    iconColor: {r: 1, g: 0, b: 0, a: 1}
+    internalIconName: console.erroricon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-1153198688-0
+    iconColor: {r: 1, g: 0, b: 0, a: 1}
+    internalIconName: console.erroricon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-1741166204-0
+    iconColor: {r: 0.85, g: 0.3, b: 0.3, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-502310833-0
+    iconColor: {r: 0.85, g: 0.3, b: 0.3, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-353368996-0
+    iconColor: {r: 0.9, g: 0.55, b: 0.2, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-975676509-0
+    iconColor: {r: 0.3, g: 0.8, b: 0.4, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-1553455023-0
+    iconColor: {r: 0.25, g: 0.8, b: 0.65, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-836763973-0
+    iconColor: {r: 0.3, g: 0.55, b: 0.95, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-1720501752-0
+    iconColor: {r: 0.55, g: 0.4, b: 0.9, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}
+  - globalObjectId: GlobalObjectId_V1-2-fb385b77b266d7e43aad3c136cfa322c-1879460271-0
+    iconColor: {r: 0.95, g: 0.4, b: 0.75, a: 1}
+    internalIconName: Folder Icon
+    customIconTexture: {fileID: 0}

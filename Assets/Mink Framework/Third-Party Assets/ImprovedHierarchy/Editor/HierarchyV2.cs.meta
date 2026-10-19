@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5b8931a52fea41ef95c68fa4e67d2a2a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388428
+  packageName: Hierarchy v2
+  packageVersion: 1.0
+  assetPath: Assets/ImprovedHierarchy/Editor/HierarchyV2.cs
+  uploadId: 1009116
