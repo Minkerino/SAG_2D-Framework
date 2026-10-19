@@ -161,14 +161,28 @@ public class Player_Movement : MonoBehaviour
 
         if (currentInteractable != previousInteractable)
         {
-            if (currentInteractable != null && currentInteractable.TryGetComponent<Interactable_Fungus>(out Interactable_Fungus interactableObjectCurrent))
+            if (currentInteractable != null)
             {
-                interactableObjectCurrent.ShowInteractPrompt();
+                if (currentInteractable.TryGetComponent<Interactable_Fungus>(out Interactable_Fungus currrentFungus))
+                {
+                    currrentFungus.Enter();
+                }
+                else if (currentInteractable.TryGetComponent<Interactable_Object>(out Interactable_Object currentObject))
+                {
+                    currentObject.Enter();
+                }
             }
 
-            if (previousInteractable != null && previousInteractable.TryGetComponent<Interactable_Fungus>(out Interactable_Fungus interactableObjectPrevious))
+            if (previousInteractable != null)
             {
-                interactableObjectPrevious.HideInteractPrompt();
+                if (previousInteractable.TryGetComponent<Interactable_Fungus>(out Interactable_Fungus previousFungus))
+                {
+                    previousFungus.Exit();
+                }
+                else if (previousInteractable.TryGetComponent<Interactable_Object>(out Interactable_Object previousObject))
+                {
+                    previousObject.Exit();
+                }
             }
 
             previousInteractable = currentInteractable;
@@ -179,9 +193,16 @@ public class Player_Movement : MonoBehaviour
     {
         if (inputInteract)
         {
-            if (currentInteractable != null && currentInteractable.TryGetComponent<Interactable_Fungus>(out Interactable_Fungus interactableObjectCurrent))
+            if (currentInteractable != null)
             {
-                interactableObjectCurrent.Interact();
+                if (currentInteractable.TryGetComponent<Interactable_Fungus>(out Interactable_Fungus currrentFungus))
+                {
+                    currrentFungus.Interact();
+                }
+                else if(currentInteractable.TryGetComponent<Interactable_Object>(out Interactable_Object currentObject))
+                {
+                    currentObject.Interact();
+                }
             }
             
             inputInteract = false;
