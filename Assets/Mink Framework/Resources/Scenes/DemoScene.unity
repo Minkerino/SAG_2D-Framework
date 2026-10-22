@@ -3330,8 +3330,8 @@ Transform:
   m_GameObject: {fileID: 386502820}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.15, y: -2.7777, z: 0}
-  m_LocalScale: {x: 3.8203, y: 4.014472, z: 1}
+  m_LocalPosition: {x: 11.15, y: -2.6792, z: 0}
+  m_LocalScale: {x: 3.8203, y: 4.21142, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1741166205}
@@ -3851,7 +3851,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.000008106232, y: 0.98040414, z: -10}
+  m_LocalPosition: {x: -0.000008583069, y: 0.9804077, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4136,7 +4136,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 5.6482487, y: 3.349864}
+  m_Offset: {x: 5.648247, y: 20.573647}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4146,7 +4146,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 89.93768, y: 17.369604}
+  m_Size: {x: 89.93768, y: 51.81717}
   m_EdgeRadius: 0
 --- !u!1 &619394800
 GameObject:
@@ -4955,8 +4955,8 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 1.5, y: 1.5, z: 0}
+  TargetOffset: {x: 0, y: 0.5, z: 0}
+  Damping: {x: 1.5, y: 0.2, z: 0}
   Lookahead:
     Enabled: 0
     Time: 0.5
@@ -5014,7 +5014,7 @@ Transform:
   m_GameObject: {fileID: 855203025}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.20000029, z: -10}
+  m_LocalPosition: {x: -0.00000071525574, y: 0.2999997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6895,6 +6895,7 @@ GameObject:
   - component: {fileID: 1780923445}
   - component: {fileID: 1780923444}
   - component: {fileID: 1780923446}
+  - component: {fileID: 1780923447}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7056,6 +7057,7 @@ MonoBehaviour:
   playerCol: {fileID: 1780923443}
   playerRb: {fileID: 1780923442}
   playerSr: {fileID: 1780923440}
+  playerAnim: {fileID: 1780923447}
   moveSpeed: 10
   moveSmoothing: 0.1
   groundLayer:
@@ -7122,6 +7124,28 @@ MonoBehaviour:
   description: 
   effectAudioSource: {fileID: 0}
   voiceAudioSource: {fileID: 0}
+--- !u!95 &1780923447
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780923439}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e80be571f02da484da1922b73c37a873, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1864225696
 GameObject:
   m_ObjectHideFlags: 0

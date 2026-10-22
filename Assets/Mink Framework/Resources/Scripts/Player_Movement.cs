@@ -8,6 +8,7 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] private Collider2D playerCol;
     [SerializeField] private Rigidbody2D playerRb;
     [SerializeField] private SpriteRenderer playerSr;
+    [SerializeField] private Animator playerAnim;
 
     [Header("Parameters: Horizontal Movement")]
     [SerializeField] private float moveSpeed = 10;
@@ -64,10 +65,12 @@ public class Player_Movement : MonoBehaviour
     // Private functions
     private void Update()
     {
+        HandleGroundCast();
+        HandleAnimations();
+
         if (enableMovement)
         {
             HandleHorizontalMove();
-            HandleGroundCast();
             HandleJump();
             HandleInteractCast();
             HandleInteract();
@@ -207,6 +210,13 @@ public class Player_Movement : MonoBehaviour
             
             inputInteract = false;
         }
+    }
+
+    private void HandleAnimations()
+    {
+        playerAnim.SetFloat("InputX", Mathf.Abs(targetMoveX));
+        playerAnim.SetFloat("VelocityY", playerRb.linearVelocity.y);
+        playerAnim.SetBool("Grounded", grounded);
     }
 
     // Public functions
